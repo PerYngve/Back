@@ -7,7 +7,7 @@ var corsOptions = {
   origin: "https://front-kappa-hazel.vercel.app"
 };
 
-app.use(cors(corsOptions));
+//app.use(cors(corsOptions));
 
 // parse requests of content-type - application/json
 app.use(express.json());
